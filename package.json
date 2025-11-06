@@ -2,7 +2,11 @@
     "name": "jangmin",
     "version": "1.0.0",
     "description": "Hi!, I'm Jangmin Lee.",
-    "main": "index.js",
+    "main": "./dist/index.js",
+    "bin": "./dist/index.js",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "lint": "eslint '**/*.{js,ts}'",
         "lint:fix": "eslint '**/*.{js,ts}' --fix",
@@ -44,7 +48,6 @@
         "type": "git",
         "url": ""
     },
-    "files": [],
     "bugs": {
         "url": ""
     },
