@@ -17,8 +17,8 @@ export default defineConfig({
             formats: ['es'],
         },
         rollupOptions: {
-            // 외부 의존성과 하위경로를 포함해서 번들 대상에서 제거
-            external: [...Object.keys(pkg.dependencies).flatMap((dep) => [dep, new RegExp(`^${dep}/.*`)])],
+            // 외부 의존성과 하위경로를 포함해서 번들 대상에서 제외
+            external: [/^node:.*/, ...Object.keys(pkg.dependencies).flatMap((dep) => [dep, new RegExp(`^${dep}/.*`)])],
             output: [
                 {
                     format: 'es',
