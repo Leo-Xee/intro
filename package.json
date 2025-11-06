@@ -5,7 +5,9 @@
     "main": "index.js",
     "scripts": {
         "lint": "eslint '**/*.{js,ts}'",
-        "lint:fix": "eslint '**/*.{js,ts}' --fix"
+        "lint:fix": "eslint '**/*.{js,ts}' --fix",
+        "build": "vite build --config vite.config.ts",
+        "postbuild": "chmod +x dist/index.js"
     },
     "packageManager": "pnpm@10.11.0",
     "dependencies": {
@@ -15,6 +17,7 @@
         "open": "^10.2.0"
     },
     "devDependencies": {
+        "@babel/preset-env": "^7.28.5",
         "@eslint/js": "^9.39.1",
         "@naverpay/editorconfig": "^1.0.0",
         "@rollup/plugin-babel": "^6.1.0",
