@@ -1,5 +1,11 @@
 # jangmin
 
+## 1.1.1
+
+### Patch Changes
+
+- cca75e0: CLI 옵션 설명 수정
+
 ## 1.1.0
 
 ### Minor Changes
