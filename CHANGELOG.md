@@ -1,5 +1,11 @@
 # jangmin
 
+## 1.1.0
+
+### Minor Changes
+
+- de7829d: README.md 추가
+
 ## 1.0.2
 
 ### Patch Changes
