@@ -7,7 +7,7 @@ const GITHUB_URL = 'https://github.com/leo-xee'
 const BLOG_URL = 'https://leo-xee.dev'
 
 const message = `
-안녕하세요! 프론트엔드 엔지니어 이장민입니다. 🌿\n
+👋 안녕하세요! 프론트엔드 엔지니어 이장민입니다.\n
 문제를 기술과 비즈니스 관점에서 균형 있게 바라보려 합니다.
 마주한 기술적 문제를 해결하며 얻은 배움에 즐거움을 느낍니다.
 유려한 사용자 경험은 개발자 경험을 향한 투자에서 나온다고 생각합니다.
