@@ -1,0 +1,55 @@
+{
+    "name": "jangmin",
+    "version": "0.1.0",
+    "description": "Hi!, I'm Jangmin Lee.",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint '**/*.{js,ts}'",
+        "lint:fix": "eslint '**/*.{js,ts}' --fix"
+    },
+    "packageManager": "pnpm@10.11.0",
+    "dependencies": {
+        "chalk": "^5.6.2",
+        "core-js": "^3.46.0",
+        "meow": "^14.0.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.1",
+        "@naverpay/editorconfig": "^1.0.0",
+        "@types/node": "^24.10.0",
+        "eslint": "^9.39.1",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-prettier": "^5.5.4",
+        "globals": "^16.5.0",
+        "jiti": "^2.6.1",
+        "prettier": "3.6.2",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.46.3",
+        "vite": "^7.2.1",
+        "vitest": "^4.0.7"
+    },
+    "keywords": [],
+    "author": {
+        "email": "jang.xmin@gmail.com",
+        "name": "leo-xee"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "files": [],
+    "bugs": {
+        "url": ""
+    },
+    "contributes": [
+        {
+            "email": "jang.xmin@gmail.com",
+            "name": "leo-xee"
+        }
+    ],
+    "type": "module",
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "license": "MIT"
+}
