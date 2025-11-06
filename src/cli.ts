@@ -23,8 +23,8 @@ const cli = meow(
     🧩 Options
       -V, --version   Show CLI version
       -H, --help      Show this help message
-      -G, --github    Open your GitHub profile
-      -B, --blog      Open your blog
+      -G, --github    Open my GitHub profile
+      -B, --blog      Open my blog
       -S, --snake     Play the snake game 🐍
 
     💡 Examples
