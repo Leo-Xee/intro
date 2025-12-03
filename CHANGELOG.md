@@ -1,5 +1,11 @@
 # jangmin
 
+## 1.2.0
+
+### Minor Changes
+
+- e2c8401: CLI 소개 메시지 변경
+
 ## 1.1.1
 
 ### Patch Changes
